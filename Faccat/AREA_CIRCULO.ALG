@@ -1,7 +1,7 @@
 Algoritmo "Area_Circulo"
 // Disciplina   : [Lógica de Programação e JavaScript]
 // Professor   : Jailson Santos
-// Descrição   : Site que solicita dois numeros e mostra o resultado da soma
+// Descrição   : Algoritmo de calculo de area do circulo
 // Autor(a)    : Laura Roberto
 // Data atual  : 13/03/2025
 Var

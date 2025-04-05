@@ -1,7 +1,7 @@
 Algoritmo "Area_Hexagono"
 // Disciplina   : [Lógica de Programação e JavaScript]
 // Professor   : Jailson Santos
-// Descrição   : Site que solicita dois numeros e mostra o resultado da soma
+// Descrição   : Algoritmo que calcula a area de um hexagono.
 // Autor(a)    : Laura Roberto
 // Data atual  : 13/03/2025
 Var
