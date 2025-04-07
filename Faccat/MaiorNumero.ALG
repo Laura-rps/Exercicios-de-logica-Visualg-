@@ -1,8 +1,8 @@
 Algoritmo "Exercicio19-Otimizado"
 // Disciplina   : [Lógica de Programação com Visualg]
 // Professor   : Jailson  Costa dos Santos
-// Descrição   : Recebe dis valores (diferentes) e mostra qual é o maior.
-// Autor(a)    : Nome do(a) aluno(a)
+// Descrição   : Recebe dois valores (diferentes) e mostra qual é o maior.
+// Autor(a)    : Laura Roberto
 // Data atual  : 21/03/2025
 Var
    // Seção de Declarações das variáveis

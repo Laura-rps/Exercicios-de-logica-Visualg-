@@ -40,6 +40,5 @@ Inicio
 
    Escreval ("O valor a ser pago é: R$ ", valorTotal:0:2)
 
-Fimalgoritmo
 
 Fimalgoritmo

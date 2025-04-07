@@ -21,7 +21,7 @@ Inicio
 
    Saldo_final<- Saldo + Credito - Debito
    se Saldo_final>= 0 entao
-      Escreval ("Seu saldo atualmente é: R$" )
+      Escreval ("Seu saldo atualmente é: R$", Saldo_final)
       Escreval ("Seu saldo é positivo")
    senao
       se Saldo_final< 0 entao

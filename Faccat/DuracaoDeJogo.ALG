@@ -26,7 +26,7 @@ Inicio
       Senao
          duracao <- (24 - hora_inicio) + hora_fim
       Fimse
-   Senao
+   senao
 
       duracao <- (24 - hora_inicio) + hora_fim + ((dia_fim - dia_inicio - 1) * 24)
    Fimse
