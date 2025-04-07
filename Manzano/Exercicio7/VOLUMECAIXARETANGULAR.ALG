@@ -1,7 +1,7 @@
 Algoritmo "VolumeCaixaRetangular"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Jailson Costa
-// Descrição   : Calculo do volume de uma caixa retangular
+// Descrição   : Calcula a adiçao e a multiplicação de 4 numeros entre si
 // Autor(a)    : Laura Roberto
 // Data atual  : 07/04/2025
 Var
@@ -19,6 +19,6 @@ Inicio
    
    volume<- comprimento * largura * altura
    
-   Escreval("O volume da caixa retangular é: ",volume,".")
+   Escreval("O volume do retangulo é: ",volume,".")
 
 Fimalgoritmo
