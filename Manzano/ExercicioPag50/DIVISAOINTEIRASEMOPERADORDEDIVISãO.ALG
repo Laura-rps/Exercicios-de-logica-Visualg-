@@ -18,10 +18,10 @@ Inicio
 
    quociente <- 0
 
-   Enquanto (dividendo >= divisor) faca
+   repita
       dividendo <- dividendo - divisor
       quociente <- quociente + 1
-   fimenquanto
+   até dividendo < divisor
 
    Escreval("O resultado inteiro da divisão é: ", quociente)
 

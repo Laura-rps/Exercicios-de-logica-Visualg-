@@ -6,26 +6,29 @@ Algoritmo "FatorialCom15Numeros"
 // Autor(a)    : Laura Roberto
 // Data atual  : 08/04/2025
 Var
-// Seção de Declarações das variáveis 
-    contador, contador1, numero: inteiro
+   // Seção de Declarações das variáveis
+   contador, contador1, numero: inteiro
    fatorial, somaFatoriais: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+   // Seção de Comandos, procedimento, funções, operadores, etc...
    somaFatoriais <- 0
+   contador <- 1
 
-   Para contador de 1 ate 15 faca
+   repita
       Escreval("Digite o ", contador, "º número:")
       Leia(numero)
 
       fatorial <- 1
+      contador1 <- 1
 
-      Para contador1 de 1 ate numero faca
+      para contador1 de 1 até numero faça
          fatorial <- fatorial * contador1
       fimpara
 
       somaFatoriais <- somaFatoriais + fatorial
-   fimpara
+      contador <- contador + 1
+   até contador > 15
 
    Escreval("A soma dos fatoriais é: ", somaFatoriais)
 

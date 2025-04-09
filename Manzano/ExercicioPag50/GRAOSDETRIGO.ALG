@@ -7,19 +7,21 @@ Algoritmo "GraosDeTrigo"
 // Autor(a)    : Laura Roberto
 // Data atual  : 08/04/2025
 Var
-// Seção de Declarações das variáveis 
+   // Seção de Declarações das variáveis
    quadro: inteiro
    graos, total: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-    graos <- 1
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   graos <- 1
    total <- 1
+   quadro <- 2
 
-   Para quadro de 2 ate 64 faca
+   repita
       graos <- graos * 2
       total <- total + graos
-   fimpara
+      quadro <- quadro + 1
+   até quadro > 64
 
    Escreval("Total de grãos de trigo no tabuleiro: ", total)
 

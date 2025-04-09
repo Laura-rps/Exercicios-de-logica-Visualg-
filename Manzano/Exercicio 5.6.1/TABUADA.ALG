@@ -11,14 +11,12 @@ Var
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    Escreval ("Tabuada")
-   Escreval ("")
-   Escreval ("Digite o numero")
-   leia (numero)
-   contador<- 1
-   enquanto contador <= 10 faça
-      Escreval (numero, "x", contador, "=", numero * contador)
-      contador <- contador + 1
-   fimenquanto
+Escreval ("")
+Escreval ("Digite o número")
+Leia (numero)
 
-   Escreval ("Fim da tabuada!")
+Para contador de 1 até 10 faça
+   Escreval (numero, " x ", contador, " = ", numero * contador)
+FimPara
+
 fimalgoritmo

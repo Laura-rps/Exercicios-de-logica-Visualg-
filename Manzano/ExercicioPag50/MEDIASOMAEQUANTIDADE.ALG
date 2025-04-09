@@ -13,24 +13,25 @@ Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    soma <- 0
    quantidade <- 0
+
    Escreval("Para encerrar digite um valor negativo")
    Escreval("Digite valores positivos.")
 
-   Leia(numero)
-
-   Enquanto numero >= 0 faca
-      soma <- soma + numero
-      quantidade <- quantidade + 1
-
+   repita
       Leia(numero)
-   fimenquanto
 
-   Se quantidade > 0 entao
+      se numero >= 0 então
+         soma <- soma + numero
+         quantidade <- quantidade + 1
+      fimse
+   até numero < 0
+
+   Se quantidade > 0 então
       media <- soma / quantidade
       Escreval("Total de valores lidos: ", quantidade)
       Escreval("Somatório: ", soma)
       Escreval("Média aritmética: ", media:2:2)
-   Senao
+   Senão
       Escreval("Nenhum valor positivo foi informado.")
    fimse
 

@@ -14,26 +14,26 @@ Inicio
    Escreval("Digite um valor positivo (ou negativo para encerrar):")
    Leia(numero)
 
-   Se (numero < 0) entao
+   Se (numero < 0) então
       Escreval("Nenhum valor positivo foi informado.")
-   Senao
+   Senão
       maior <- numero
       menor <- numero
 
-      Enquanto (numero >= 0) faca
+      repita
          Escreval("Digite outro valor (ou negativo para encerrar):")
          Leia(numero)
 
-         Se (numero >= 0) entao
-            Se (numero > maior) entao
+         Se (numero >= 0) então
+            Se (numero > maior) então
                maior <- numero
             fimse
 
-            Se (numero < menor) entao
+            Se (numero < menor) então
                menor <- numero
             fimse
          fimse
-      fimenquanto
+      até numero < 0
 
       Escreval("Maior valor informado: ", maior)
       Escreval("Menor valor informado: ", menor)

@@ -5,15 +5,19 @@ Algoritmo "Divisaopelo4"
 // Autor(a)    : Laura Roberto
 // Data atual  : 26/03/2025
 var
-// Seção de Declarações das variáveis
+   // Seção de Declarações das variáveis
    contador: inteiro
 inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-contador <- 1
-Escreval ("Divisão pelo numero 4 ate o numero 200")
-   para contador de 1 até 200 faca
-      se (contador % 4 = 0) entao
-         escreval(contador)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   contador <- 1
+
+   Escreval("Divisão pelo número 4 até o número 200")
+
+   repita
+      se (contador mod 4 = 0) então
+         Escreval(contador)
       fimse
-   fimpara
+
+      contador <- contador + 1
+   até contador > 200
 fimalgoritmo
